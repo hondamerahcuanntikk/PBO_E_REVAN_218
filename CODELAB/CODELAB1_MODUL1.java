@@ -14,7 +14,7 @@ public class CODELAB1_MODUL1 {
         name = objInput.nextLine();
         System.out.print("MASUKKAN JENIS KELAMIN ANDA (P/L) = ");
         gender = objInput.next().charAt(0);
-        System.out.print("MASUKKAN TAHUN LAHIR ANDA = ");
+        System.out.print("MASUKKAN TAHUN LAHIR ANDA = ");//revan
         tahunlahir = objInput.nextInt();
         int tahunsekarang = LocalDate.now().getYear();
         int umur = tahunsekarang - tahunlahir;
